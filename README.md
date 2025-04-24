@@ -51,7 +51,7 @@ This project aims to:
 
 ### 4. Recommend Apartments
 - Recommends 5 similar apartments based on cosine similarity.
-- Select a location and get smart recommendations with price and size info.
+- Select a location and get smart recommendations.
 
 📸 **Screenshot Placeholder: Recommend Apartments**
 ![Recommend Apartments](screenshots/recommend_apartments.png)
@@ -62,7 +62,7 @@ This project aims to:
 
 - **Languages**: Python, Pandas, Numpy
 - **Visualization**: Matplotlib, Seaborn, Plotly
-- **Machine Learning**: Scikit-learn, XGBoost, Hyperopt
+- **Machine Learning**: Scikit-learn, Random Forest
 - **Web App**: Streamlit
 - **Deployment**: Streamlit Cloud
 - **Recommendation System**: Cosine Similarity
@@ -75,7 +75,7 @@ This project aims to:
 ```
 ├── Data Cleaning & Preprocessing
 ├── EDA Notebooks
-├── Model Building (XGBoost, Hyperopt)
+├── Model Building
 ├── Feature Engineering
 ├── Model Evaluation
 └── Final Model (model.pkl)
@@ -83,9 +83,9 @@ This project aims to:
 
 ### [`Real-state-Capstone-Project-streamlit-code`](https://github.com/rajnish80130/Real-state-Capstone-Project-streamlit-code)
 ```
-├── streamlit_app.py
+├── Home.py
 ├── model.pkl
-├── cosine_similarity_recommender.pkl
+├── cosine_sim1.pkl, cosine_sim2.pkl, cosine_sim3.pkl
 ├── data files (locations, flat data)
 └── images (optional for screenshots)
 ```
@@ -101,7 +101,7 @@ This project aims to:
    ```
 3. Run the app:
    ```
-   streamlit run streamlit_app.py
+   streamlit run Home.py
    ```
 
 ---
@@ -110,7 +110,7 @@ This project aims to:
 
 - Add filters for amenities, builder reputation, etc.
 - Integrate with real-time APIs for live listings.
-- Add map-based visualizations (e.g., Folium).
+- Add map-based visualizations.
 
 ---
 
@@ -127,18 +127,6 @@ Feel free to fork this repo and contribute via pull requests. Any suggestions or
 🌐 Deployed App: [gurgaon-real-estate-project.streamlit.app](https://gurgaon-real-estate-project.streamlit.app/)
 
 ---
-
-## 📸 Screenshots Folder Structure
-
-Please place your screenshots inside a folder named `screenshots/` in your streamlit repo:
-```
-screenshots/
-├── home_page.png
-├── analysis_app.png
-├── price_predictor.png
-└── recommend_apartments.png
-```
-
 ---
 
 ⭐ **If you found this project useful, don't forget to give it a star!**
