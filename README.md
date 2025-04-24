@@ -42,7 +42,7 @@ This project aims to:
 
 ### 3. Price Predictor
 - Predicts apartment price based on input features like location, BHK, bathroom, and size.
-- Uses XGBoost Regressor with Hyperopt tuning.
+- Uses Random Forest Regressor.
 
 📸 **Screenshot Placeholder: Price Predictor**
 ![Price Predictor](screenshots/price_predictor.png)
