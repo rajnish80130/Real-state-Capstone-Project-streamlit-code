@@ -126,7 +126,5 @@ Feel free to fork this repo and contribute via pull requests. Any suggestions or
 🔗 GitHub: [rajnish80130](https://github.com/rajnish80130)  
 🌐 Deployed App: [gurgaon-real-estate-project.streamlit.app](https://gurgaon-real-estate-project.streamlit.app/)
 
----
----
 
 ⭐ **If you found this project useful, don't forget to give it a star!**
